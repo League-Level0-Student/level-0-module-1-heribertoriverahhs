@@ -40,7 +40,7 @@ End of code]
 If the variable is set to "no," it prints sad and then it prints wednesday
 Start of code[
 int age = 15;
-if(age.equals("15")){
+if(age == 15){
 JOptionPane.showMessageDialog(null, "It's so great being young!");
 }
 else{
