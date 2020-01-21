@@ -1,0 +1,66 @@
+String favoriteHobby = "programming";
+Int numberOfToes = 10;
+Int degreeInARightAngle = 90;
+Int myAge = 15;
+String codingLanguage = "Java";
+double pi = 3.14159;
+String whatIWantToBeWhenIGrowUp = "Computer Scientist";
+Int facebookfriend = 0;
+String myBirthday = "March 25, 2018";
+Int sidesInATriangle = 3;
+String birthdayGifts = "Clothes";
+String lastMeal = "Burrito";
+Int bedTime = 9;
+Int robotPrograms = 5;
+Start of code[
+for(int i = 0; i < 10; i++){
+JOptionPane.showMessageDialog(null, i);
+}
+End of code]
+Start of code[
+for(int i = 75; i > 50; i--){
+JOptionPAne.showMessageDialog(null, i);
+}
+End of code]
+For(a, b, c)
+a) This part declares the number of the integer
+b) This part declares how many times the code is going to repeat
+c) This part either adds or subtracts from the variable
+Start of code[
+String word = "yes";
+if(word.equalsIgnoreCase("yes")){
+JOptionPane.showMessageDialog(null, "happy");
+}
+else
+{
+JOptionPane.showMessageDialog(null, "sad");
+}
+JOptionPane.showMessageDialog(null, "Wednesday");
+End of code]
+If the variable is set to "no," it prints sad and then it prints wednesday
+Start of code[
+int age = 15;
+if(age.equals("15")){
+JOptionPane.showMessageDialog(null, "It's so great being young!");
+}
+else{
+JOptionPane.showMessageDialog(null, "Don't you wish you were young!");
+}
+End code]
+Start of Code[
+String input = JOptionPane.showInputDialog("What type of animal do you like?");
+if (input.equalsIgnoreCase("Dog")){
+JOptionPane.showMessageDialog(null, "Dogs go woof!");
+}
+else{
+if(input.equalsIgnoreCase("Cat")){
+JOptionPane.showMessageDialog(null, "Cats go meow");
+}
+else{
+JOptionPane.showMessageDialog(null, "I don't know that animal.");
+}
+}
+
+
+
+
